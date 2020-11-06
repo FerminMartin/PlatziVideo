@@ -17,7 +17,7 @@ body {
     width: 200px;
 }
 .login {
-    background: linear-gradient(#21C08B, #AB88FF);
+    background: linear-gradient(#21C08B, #8f57fd);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,7 +110,7 @@ body {
     margin: 10px 0px;
 }
 .footer {
-    background-color: #AB88FF;
+    background-color: #8f57fd;
     display: flex;
     align-items: center;
     height: 100px;
