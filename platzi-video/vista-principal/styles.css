@@ -186,6 +186,12 @@ body {
         padding: 0px;
         width: 100%;
     }
+    .carousel {
+        width: 100%;
+        overflow: scroll;
+        padding-left: 30px;
+        position: relative;
+    }
     .footer {
         align-items: flex-start;
         flex-direction: column;
