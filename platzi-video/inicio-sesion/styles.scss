@@ -1,12 +1,21 @@
+$blanco: white;
+
 body {
     margin: 0;
     font-family: 'Mulish', sans-serif;
 }
-.header {
+
+@mixin flex {
+    display: flex;
     align-items: center;
+}
+
+.header {
+    @include flex
+    // align-items: center;
     background-color: #21c08b;
     color: white;
-    display: flex;
+    // display: flex;
     height: 100px;
     justify-content: space-between;
     top: 0px;
@@ -23,7 +32,7 @@ body {
     justify-content: center;
     flex-direction: column;
     padding: 0px 30px;
-    min-height: calc(100vh -200px);
+    min-height: calc(100vh - 200px);
 }
 .login__container {
     background-color: rgba(255, 255,255, 0.1);
@@ -51,7 +60,7 @@ body {
     margin-top: 10px;
 }
 .login__container--remember-me a{
-    color: white;
+    color: $blanco;
     font-size: 14px;
     text-decoration: none;
 }
@@ -69,7 +78,8 @@ body {
     margin-right: 10px;
 }
 .login__container--register {
-    font-size: 14px; 
+    font-size: 14px;
+    a
 }
 .login__container--register a {
     font-size: 16px; 
