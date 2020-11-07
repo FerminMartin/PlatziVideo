@@ -1,8 +1,9 @@
 # PlatziVideo
 
-## ¿ Qué lenguajes usaremos ?
+<img src="https://github.com/FerminMartin/PlatziVideo/blob/master/platzi-video/assets/Readme.png">
 
-HTML CSS y SASS
+### HTML CSS y SASS
+
 
 ## ¿ En qué consiste el proyecto ?
 
